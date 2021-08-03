@@ -5,9 +5,34 @@
 }
 
 body {
-    font-family: 'Bungee Inline', cursive;
- background-color:red;
+font-family: 'Bungee Inline', cursive;
+background-color:#A7FFF6 ; /*95D9C3   A4F9C8  A7FFF6  5C6F68 */
+color:black;
+margin:0;
 }
-    
-    
-    
+
+footer{
+
+    background-color: lightblue;
+    color:black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav{
+padding: 15px;
+background-color: lightblue;
+display: flex;
+justify-content:flex-end;
+}
+
+nav a {
+    color:#000000;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+header{
+    height:100vh;
+}
