@@ -11,18 +11,17 @@ body {
   margin: 0;
 }
 
-footer {
-  background-color: #902923;
-  color: black;
-  padding: 10px;
-  text-align: center;
-}
-
 .nav {
   padding: 15px;
   background-color: #902923;
   display: flex;
   justify-content: flex-end;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .nav a {
@@ -103,19 +102,38 @@ section h2 {
   margin: 0 10px;
 }
 
-.projects {
+.project-tile {
   max-width: 250px;
   margin: 10px;
 }
 
-.projects img {
+.project-tile img {
   max-width: 100%;
 }
 
-.projects-container {
+.projects-sect {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px auto 0;
+}
+
+footer {
+  background-color: #902923;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
 }
