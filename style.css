@@ -1,38 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto&display=swap");
 
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
-font-family: 'Bungee Inline', cursive;
-background-color:#A7FFF6 ; /*95D9C3   A4F9C8  A7FFF6  5C6F68 */
-color:black;
-margin:0;
+  font-family: "Bungee Inline", cursive;
+  background-color: #d6d5c9; /*95D9C3   A4F9C8  A7FFF6  5C6F68 */
+  color: white;
+  margin: 0;
 }
 
-footer{
-
-    background-color: lightblue;
-    color:black;
-    padding: 10px;
-    text-align: center;
-
+footer {
+  background-color: #902923;
+  color: black;
+  padding: 10px;
+  text-align: center;
 }
 
-nav{
-padding: 15px;
-background-color: lightblue;
-display: flex;
-justify-content:flex-end;
+.nav {
+  padding: 15px;
+  background-color: #902923;
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav a {
-    color:#000000;
-    margin-left:20px;
-    text-decoration:none;
+.nav a {
+  color: #000000;
+  margin-left: 20px;
+  text-decoration: none;
 }
 
-header{
-    height:100vh;
+.nav a :hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 100vh;
+  background-image: url("Background_image1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 5;
+  opacity: 0.4;
+}
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+header p {
+  font-size: 30px;
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  padding: 40px;
+}
+
+section p {
+  margin-top: 0;
+}
+section h2 {
+  margin-top: 0;
+}
+
+.socialcolor {
+  background-color: #b9baa3;
+}
+
+.social-ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.social-ul a {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.projects {
+  max-width: 250px;
+  margin: 10px;
+}
+
+.projects img {
+  max-width: 100%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 0;
 }
