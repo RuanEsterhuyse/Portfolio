@@ -62,13 +62,11 @@ header * {
   position: relative;
   z-index: 1;
 }
-
 header h1 {
   font-size: 60px;
   margin-bottom: 5px;
-  margin-top: 0;
+  margin-top: 10;
 }
-
 header p {
   font-size: 30px;
   margin: 0;
