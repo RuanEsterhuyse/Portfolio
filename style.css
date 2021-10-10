@@ -37,6 +37,11 @@ body {
   text-decoration: underline;
 }
 
+a:hover {
+  background-color: #008f13;
+  padding: 31px;
+}
+
 header {
   height: 100vh;
   background-image: url("cimage.jpeg");
@@ -71,6 +76,10 @@ header h1 {
 header p {
   font-size: 30px;
   margin: 0;
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #008f13;
 }
 
 section {
@@ -139,3 +148,7 @@ footer {
   height: 100vh;
   text-align: center;
 }
+
+/* .projects-section-header {
+  color: #008f13;
+} */
