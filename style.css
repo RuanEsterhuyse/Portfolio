@@ -79,7 +79,7 @@ header p {
   font-size: 1.5rem;
   font-weight: 200;
   font-style: italic;
-  color: #008f13;
+  /* color: #008f13; */
 }
 
 section {
